@@ -13,5 +13,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "Mockit", dependencies: [], path: "Mockit")
-    ]
+    ],
+    swiftLanguageModes: [.v5]
 )
